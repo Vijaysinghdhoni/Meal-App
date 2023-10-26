@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Meal</string>
+    <string name="food_list">Food List</string>
+    <string name="watch_on_youtube">Watch On Youtube</string>
+    <string name="share_recipe">Share Recipe</string>
+    <string name="source">Source</string>
+    <string name="instructions">Instructions :</string>
+    <string name="ingredients">Ingredients:</string>
+</resources>

@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:elevation="5dp"
+        app:cardCornerRadius="5dp">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <ImageView
+                android:id="@+id/food_image"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:scaleType="fitXY"
+                tools:src="@drawable/new_food_place_hoder" />
+
+            <View
+                android:id="@+id/fav_view"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:layout_alignParentEnd="true"
+                android:layout_marginTop="-5dp"
+                android:layout_marginBottom="-5dp"
+                android:background="@color/colorBlackShadow" />
+
+            <ImageView
+                android:id="@+id/fav_dish_bttn"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentEnd="true"
+                android:layout_margin="5dp"
+                android:backgroundTint="@color/white"
+                android:src="@drawable/baseline_favorite_border_24" />
+
+
+            <TextView
+                android:id="@+id/food_name"
+                android:layout_width="170dp"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/food_image"
+                android:layout_centerInParent="true"
+                android:layout_margin="5dp"
+                android:lines="2"
+                android:maxLines="2"
+                android:textAlignment="center"
+                android:textColor="@color/black"
+                android:textSize="14sp"
+                android:textStyle="bold"
+                tools:text="dish namewill be jdjnxnn  ff dd" />
+
+        </RelativeLayout>
+
+    </androidx.cardview.widget.CardView>
+
+</layout>
+
