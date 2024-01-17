@@ -1,1 +1,1 @@
-basic recipe app using the meal db api 
+basic recipe app using the meal db api  that shows a list of Food categories and different food based on any category developed in kotlin , demonstrating the use of dagger for dependency injection, Retrofit for networking , coroutines for asynchronous programing and glide for image loading . This app uses MVVM architecture
